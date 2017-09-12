@@ -47,6 +47,7 @@
                 #{operationLog.serviceIP,jdbcType=VARCHAR},
                 #{operationLog.servicePort,jdbcType=VARCHAR}
             )
+
     </insert>
 
 </mapper>
