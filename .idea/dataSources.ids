@@ -1,0 +1,4193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - xfn@114.215.168.50" uuid="98b5ed86-df44-4007-b87b-25a5113fd3b0">
+    <database-info product="MySQL" version="5.5.51" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.38 ( Revision: fe541c166cec739c74cc727c5da96c1028b4834a )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+      <schema id="1" name="xfn">
+        <visible>1</visible>
+      </schema>
+      <schema id="2" name="&#xa;&#xa;固定资产&#xa;fixedAssets"/>
+      <schema id="3" name="information_schema"/>
+      <schema id="4" name="koa_demo"/>
+      <schema id="5" name="mysql"/>
+      <schema id="6" name="performance_schema"/>
+      <schema id="7" name="test"/>
+      <table id="8" parent="1" name="//PAY_Activate_Log"/>
+      <table id="9" parent="1" name="//PAY_ChargePackage"/>
+      <table id="10" parent="1" name="//cardcreditass"/>
+      <table id="11" parent="1" name="//carddebitass"/>
+      <table id="12" parent="1" name="//classficationassertAss"/>
+      <table id="13" parent="1" name="//gdzccreditass"/>
+      <table id="14" parent="1" name="//gdzcdebitass"/>
+      <table id="15" parent="1" name="//pay_corp_pay"/>
+      <table id="16" parent="1" name="//pay_package_amb"/>
+      <table id="17" parent="1" name="//pay_package_assets"/>
+      <table id="18" parent="1" name="//pay_package_base"/>
+      <table id="19" parent="1" name="//pay_package_extension_info"/>
+      <table id="20" parent="1" name="Activity"/>
+      <table id="21" parent="1" name="AuthCorpInfo"/>
+      <table id="22" parent="1" name="Ding_accesstoken"/>
+      <table id="23" parent="1" name="Ding_jsticket"/>
+      <table id="24" parent="1" name="Ding_permanentcode"/>
+      <table id="25" parent="1" name="Ding_ticket"/>
+      <table id="26" parent="1" name="Log_Filter"/>
+      <table id="27" parent="1" name="UserActivityInfo"/>
+      <table id="28" parent="1" name="ac">
+        <comment>帐套明细</comment>
+      </table>
+      <table id="29" parent="1" name="ac_ass"/>
+      <table id="30" parent="1" name="ac_ba">
+        <comment>（废止）</comment>
+      </table>
+      <table id="31" parent="1" name="alipay_extension_corp_info"/>
+      <table id="32" parent="1" name="alipay_extension_info"/>
+      <table id="33" parent="1" name="alipay_invoice"/>
+      <table id="34" parent="1" name="alipay_mobile_notify_info"/>
+      <table id="35" parent="1" name="alipay_mobile_return_info"/>
+      <table id="36" parent="1" name="alipay_order"/>
+      <table id="37" parent="1" name="alipay_orderno"/>
+      <table id="38" parent="1" name="alipay_package_corp_info"/>
+      <table id="39" parent="1" name="alipay_package_extension_relate"/>
+      <table id="40" parent="1" name="alipay_package_info"/>
+      <table id="41" parent="1" name="alipay_pc_notify_info"/>
+      <table id="42" parent="1" name="alipay_pc_return_info"/>
+      <table id="43" parent="1" name="ass">
+        <comment>辅助核算</comment>
+      </table>
+      <table id="44" parent="1" name="ba">
+        <comment>帐套科目余额</comment>
+      </table>
+      <table id="45" parent="1" name="ba_Fc">
+        <comment>外币余额</comment>
+      </table>
+      <table id="46" parent="1" name="ba_ass"/>
+      <table id="47" parent="1" name="ba_ass_temp"/>
+      <table id="48" parent="1" name="basheet_report"/>
+      <table id="49" parent="1" name="cach_flow_report"/>
+      <table id="50" parent="1" name="card"/>
+      <table id="51" parent="1" name="card_ass"/>
+      <table id="52" parent="1" name="classification"/>
+      <table id="53" parent="1" name="classification_ass"/>
+      <table id="54" parent="1" name="corp"/>
+      <table id="55" parent="1" name="corp_filter"/>
+      <table id="56" parent="1" name="ding_app_info"/>
+      <table id="57" parent="1" name="ding_send_info"/>
+      <table id="58" parent="1" name="enclosure"/>
+      <table id="59" parent="1" name="exception_code"/>
+      <table id="60" parent="1" name="foreign_currency"/>
+      <table id="61" parent="1" name="initPeriod"/>
+      <table id="62" parent="1" name="jv">
+        <comment>分录</comment>
+      </table>
+      <table id="63" parent="1" name="jv_ass"/>
+      <table id="64" parent="1" name="jv_ass_model"/>
+      <table id="65" parent="1" name="jv_fc"/>
+      <table id="66" parent="1" name="jv_model">
+        <comment>分录模版</comment>
+      </table>
+      <table id="67" parent="1" name="jvunit"/>
+      <table id="68" parent="1" name="jvunit_model"/>
+      <table id="69" parent="1" name="label"/>
+      <table id="70" parent="1" name="log"/>
+      <table id="71" parent="1" name="log_new"/>
+      <table id="72" parent="1" name="notice"/>
+      <table id="73" parent="1" name="operation_info"/>
+      <table id="74" parent="1" name="pay_ding_callback_info"/>
+      <table id="75" parent="1" name="pay_extension_corp_info"/>
+      <table id="76" parent="1" name="pay_order"/>
+      <table id="77" parent="1" name="pay_package_corp_info"/>
+      <table id="78" parent="1" name="pay_package_enclosure"/>
+      <table id="79" parent="1" name="pay_package_info"/>
+      <table id="80" parent="1" name="report">
+        <comment>利润表和资产负债表所需内容</comment>
+      </table>
+      <table id="81" parent="1" name="sob">
+        <comment>帐套</comment>
+      </table>
+      <table id="82" parent="1" name="sob_amb"/>
+      <table id="83" parent="1" name="sob_backup"/>
+      <table id="84" parent="1" name="soblabel"/>
+      <table id="85" parent="1" name="user">
+        <comment>用户</comment>
+      </table>
+      <table id="86" parent="1" name="user_action">
+        <comment>用户行为记录</comment>
+      </table>
+      <table id="87" parent="1" name="user_sob"/>
+      <table id="88" parent="1" name="user_trace"/>
+      <table id="89" parent="1" name="vc">
+        <comment>凭证</comment>
+      </table>
+      <table id="90" parent="1" name="vc0">
+        <comment>凭证</comment>
+      </table>
+      <table id="91" parent="1" name="vc_model">
+        <comment>凭证模版</comment>
+      </table>
+      <column id="92" parent="8" name="logKey">
+        <comment>主键</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11) unsigned|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="93" parent="8" name="corpId">
+        <comment>公司ID</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="94" parent="8" name="ddUserId">
+        <comment>钉钉用户ID</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="95" parent="8" name="operation">
+        <comment>操作（激活或解除激活）</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="96" parent="8" name="sobId">
+        <comment>帐套ID</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="97" parent="8" name="operationTime">
+        <comment>操作时间</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <key id="98" parent="8" name="PRIMARY">
+        <columns>logKey</columns>
+        <primary>1</primary>
+      </key>
+      <column id="99" parent="9" name="packageKey">
+        <comment>套餐主键</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(64) unsigned|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="100" parent="9" name="businessCode">
+        <comment>业务代码</comment>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="101" parent="9" name="createPerson">
+        <comment>创建人</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="102" parent="9" name="packageContent">
+        <comment>套餐内容</comment>
+        <data-type>varchar(128)|0</data-type>
+      </column>
+      <column id="103" parent="9" name="activateAmount">
+        <comment>可激活帐套数</comment>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="104" parent="9" name="amountMonth">
+        <comment>每月花费</comment>
+        <data-type>decimal(16,2)|0</data-type>
+      </column>
+      <column id="105" parent="9" name="createTime">
+        <comment>创建时间</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="106" parent="9" name="version">
+        <comment>套餐版本</comment>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <key id="107" parent="9" name="PRIMARY">
+        <columns>packageKey</columns>
+        <primary>1</primary>
+      </key>
+      <column id="108" parent="10" name="cardcreditasskey">
+        <mandatory>1</mandatory>
+        <data-type>int(11) unsigned|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="109" parent="10" name="cardcreditkey">
+        <data-type>varchar(50)|0</data-type>
+      </column>
+      <column id="110" parent="10" name="creditasskey">
+        <data-type>int(11)|0</data-type>
+      </column>
+      <key id="111" parent="10" name="PRIMARY">
+        <columns>cardcreditasskey</columns>
+        <primary>1</primary>
+      </key>
+      <column id="112" parent="11" name="carddebitasskey">
+        <mandatory>1</mandatory>
+        <data-type>int(11) unsigned|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="113" parent="11" name="carddebitkey">
+        <data-type>varchar(50)|0</data-type>
+      </column>
+      <column id="114" parent="11" name="debitasskey">
+        <data-type>int(11)|0</data-type>
+      </column>
+      <key id="115" parent="11" name="PRIMARY">
+        <columns>carddebitasskey</columns>
+        <primary>1</primary>
+      </key>
+      <column id="116" parent="12" name="classassetsasstkey">
+        <comment>主键</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11) unsigned|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="117" parent="12" name="classassetskey">
+        <comment>分类的key</comment>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="118" parent="12" name="assetsasskey">
+        <comment>资产关联辅助核算</comment>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <key id="119" parent="12" name="PRIMARY">
+        <columns>classassetsasstkey</columns>
+        <primary>1</primary>
+      </key>
+      <column id="120" parent="13" name="gdzccreditkey">
+        <comment>主键</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11) unsigned|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="121" parent="13" name="classcardcreditkey">
+        <comment>卡片或分类key</comment>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="122" parent="13" name="creditasskey">
+        <comment>贷方辅助核算key</comment>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <key id="123" parent="13" name="PRIMARY">
+        <columns>gdzccreditkey</columns>
+        <primary>1</primary>
+      </key>
+      <column id="124" parent="14" name="gdzcdebitkey">
+        <comment>主键</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11) unsigned|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="125" parent="14" name="classcarddebitkey">
+        <comment>卡片或者分类借方向key</comment>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="126" parent="14" name="debitasskey">
+        <comment>借方向辅助核算</comment>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <key id="127" parent="14" name="PRIMARY">
+        <columns>gdzcdebitkey</columns>
+        <primary>1</primary>
+      </key>
+      <column id="128" parent="15" name="corpId">
+        <comment>公司ID</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="129" parent="15" name="corpName">
+        <comment>公司名称</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="130" parent="15" name="goodsCode">
+        <comment>套餐编码</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="131" parent="15" name="sobCount">
+        <comment>套餐账套数</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="132" parent="15" name="extensionNum">
+        <comment>扩展包数量</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="133" parent="15" name="chargeTime">
+        <comment>充值时间</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(64)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="134" parent="15" name="corpType">
+        <comment>公司类型（内测，正式，星级）</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <key id="135" parent="15" name="PRIMARY">
+        <columns>corpId</columns>
+        <primary>1</primary>
+      </key>
+      <column id="136" parent="16" name="corpId">
+        <comment>公司ID</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="137" parent="16" name="itemName">
+        <comment>套餐名称</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="138" parent="16" name="pathWay">
+        <comment>途径(正式购买或者试用：FREE BUY)</comment>
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;FREE&apos;</default-expression>
+      </column>
+      <column id="139" parent="16" name="expirationTime">
+        <comment>到期时间</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="140" parent="16" name="updateTime">
+        <comment>信息更新时间</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="141" parent="16" name="goodsCode">
+        <data-type>varchar(128)|0</data-type>
+      </column>
+      <key id="142" parent="16" name="PRIMARY">
+        <columns>corpId</columns>
+        <primary>1</primary>
+      </key>
+      <column id="143" parent="17" name="corpId">
+        <comment>公司ID</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(64)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="144" parent="17" name="itemName">
+        <comment>套餐名称</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="145" parent="17" name="pathWay">
+        <comment>途径(正式购买或者试用：FREE BUY)</comment>
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;FREE&apos;</default-expression>
+      </column>
+      <column id="146" parent="17" name="expirationTime">
+        <comment>到期时间</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="147" parent="17" name="updateTime">
+        <comment>信息更新时间</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="148" parent="17" name="goodsCode">
+        <data-type>varchar(128)|0</data-type>
+      </column>
+      <key id="149" parent="17" name="PRIMARY">
+        <columns>corpId</columns>
+        <primary>1</primary>
+      </key>
+      <column id="150" parent="18" name="corpId">
+        <comment>主键</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(64)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="151" parent="18" name="itemName">
+        <comment>套餐名称</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="152" parent="18" name="pathWay">
+        <comment>途径(正式购买或者试用：FREE BUY)</comment>
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;FREE&apos;</default-expression>
+      </column>
+      <column id="153" parent="18" name="expirationTime">
+        <comment>到期时间</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="154" parent="18" name="updateTime">
+        <comment>信息更新时间</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="155" parent="18" name="goodsCode">
+        <data-type>varchar(128)|0</data-type>
+      </column>
+      <key id="156" parent="18" name="PRIMARY">
+        <columns>corpId</columns>
+        <primary>1</primary>
+      </key>
+      <column id="157" parent="19" name="extensionKey">
+        <comment>主键</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11) unsigned|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="158" parent="19" name="extensionName">
+        <comment>扩展包名称</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="159" parent="19" name="isTrial">
+        <comment>是否开启试用</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="160" parent="19" name="trailPeriod">
+        <comment>试用期长度</comment>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="161" parent="19" name="content">
+        <comment>内容</comment>
+        <data-type>varchar(256)|0</data-type>
+      </column>
+      <key id="162" parent="19" name="PRIMARY">
+        <columns>extensionKey</columns>
+        <primary>1</primary>
+      </key>
+      <column id="163" parent="20" name="activityKey">
+        <mandatory>1</mandatory>
+        <data-type>int(11) unsigned|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="164" parent="20" name="authChannel">
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="165" parent="20" name="authChannelType">
+        <data-type>varchar(64)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="166" parent="20" name="isOpen">
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;FALSE&apos;</default-expression>
+      </column>
+      <column id="167" parent="20" name="activityTime">
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="168" parent="20" name="appId">
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <key id="169" parent="20" name="PRIMARY">
+        <columns>activityKey</columns>
+        <primary>1</primary>
+      </key>
+      <column id="170" parent="21" name="corpId">
+        <mandatory>1</mandatory>
+        <data-type>varchar(64)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="171" parent="21" name="appId">
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="172" parent="21" name="corpName">
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="173" parent="21" name="corpLogoUrl">
+        <data-type>varchar(200)|0</data-type>
+      </column>
+      <column id="174" parent="21" name="industry">
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="175" parent="21" name="inviteCode">
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="176" parent="21" name="licenseCode">
+        <data-type>varchar(128)|0</data-type>
+      </column>
+      <column id="177" parent="21" name="authChannel">
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="178" parent="21" name="authChannelType">
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="179" parent="21" name="isAuthenticated">
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="180" parent="21" name="authLevel">
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="181" parent="21" name="inviteUrl">
+        <data-type>varchar(200)|0</data-type>
+      </column>
+      <column id="182" parent="21" name="createTime">
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="183" parent="21" name="updateTime">
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <key id="184" parent="21" name="PRIMARY">
+        <columns>corpId</columns>
+        <primary>1</primary>
+      </key>
+      <column id="185" parent="22" name="corpId">
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)|0</data-type>
+      </column>
+      <column id="186" parent="22" name="appId">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="187" parent="22" name="access_token">
+        <mandatory>1</mandatory>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="188" parent="22" name="begin_time">
+        <mandatory>1</mandatory>
+        <data-type>bigint(16)|0</data-type>
+      </column>
+      <key id="189" parent="22" name="PRIMARY">
+        <columns>corpId</columns>
+        <primary>1</primary>
+      </key>
+      <column id="190" parent="23" name="corpId">
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="191" parent="23" name="appId">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="192" parent="23" name="begin_time">
+        <mandatory>1</mandatory>
+        <data-type>bigint(16)|0</data-type>
+      </column>
+      <column id="193" parent="23" name="ticket">
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <key id="194" parent="23" name="PRIMARY">
+        <columns>corpId</columns>
+        <primary>1</primary>
+      </key>
+      <column id="195" parent="24" name="corpId">
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="196" parent="24" name="appId">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="197" parent="24" name="permanentcode">
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <key id="198" parent="24" name="PRIMARY">
+        <columns>corpId</columns>
+        <primary>1</primary>
+      </key>
+      <column id="199" parent="25" name="appId">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;1390&apos;</default-expression>
+      </column>
+      <column id="200" parent="25" name="suiteTicket">
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="201" parent="25" name="suiteToken">
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <key id="202" parent="25" name="PRIMARY">
+        <columns>appId</columns>
+        <primary>1</primary>
+      </key>
+      <column id="203" parent="26" name="roleKey">
+        <mandatory>1</mandatory>
+        <data-type>int(11) unsigned|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="204" parent="26" name="logProperty">
+        <comment>日志属性</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="205" parent="26" name="role">
+        <comment>规则</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="206" parent="26" name="roleValue">
+        <comment>规则数值</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="207" parent="26" name="times">
+        <comment>发生次数</comment>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="208" parent="26" name="beginEffectTime">
+        <comment>生效开始时间</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="209" parent="26" name="endEffectTime">
+        <comment>生效结束时间</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="210" parent="26" name="isDebug">
+        <comment>是否调试模式</comment>
+        <data-type>varchar(10)|0</data-type>
+      </column>
+      <key id="211" parent="26" name="PRIMARY">
+        <columns>roleKey</columns>
+        <primary>1</primary>
+      </key>
+      <column id="212" parent="27" name="activityKey">
+        <mandatory>1</mandatory>
+        <data-type>int(11) unsigned|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="213" parent="27" name="appId">
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="214" parent="27" name="useruuid">
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="215" parent="27" name="authChannel">
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="216" parent="27" name="authChannelType">
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="217" parent="27" name="createTime">
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <key id="218" parent="27" name="PRIMARY">
+        <columns>activityKey</columns>
+        <primary>1</primary>
+      </key>
+      <column id="219" parent="28" name="ackey">
+        <comment>帐套明细key</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(64) unsigned|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="220" parent="28" name="sobid">
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="221" parent="28" name="acid">
+        <comment>科目id</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="222" parent="28" name="acname">
+        <data-type>text|0</data-type>
+      </column>
+      <column id="223" parent="28" name="category">
+        <comment>资产负债科目</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="224" parent="28" name="direction">
+        <comment>借方或贷方</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="225" parent="28" name="upperid">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="226" parent="28" name="acunit">
+        <data-type>varchar(16)|0</data-type>
+      </column>
+      <column id="227" parent="28" name="acunitOpen">
+        <comment>是否开启数量核算的问题</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(16)|0</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="228" parent="28" name="fcStatus">
+        <comment>是否开启外币（0:不开启；1:开启）</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(1)|0</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <index id="229" parent="28" name="AcIdUN">
+        <columns>sobid
+acid</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="230" parent="28" name="PRIMARY">
+        <columns>ackey</columns>
+        <primary>1</primary>
+      </key>
+      <key id="231" parent="28" name="AcIdUN">
+        <columns>sobid
+acid</columns>
+        <underlying-index>AcIdUN</underlying-index>
+      </key>
+      <column id="232" parent="29" name="ackey">
+        <mandatory>1</mandatory>
+        <data-type>int(64)|0</data-type>
+      </column>
+      <column id="233" parent="29" name="asscategory">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <index id="234" parent="29" name="ackey">
+        <columns>ackey
+asscategory</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="235" parent="29" name="ac_ass_ackey_index">
+        <columns>ackey</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="236" parent="29" name="ackey">
+        <columns>ackey
+asscategory</columns>
+        <underlying-index>ackey</underlying-index>
+      </key>
+      <column id="237" parent="30" name="ackey">
+        <mandatory>1</mandatory>
+        <data-type>int(64)|0</data-type>
+      </column>
+      <column id="238" parent="30" name="bakey">
+        <mandatory>1</mandatory>
+        <data-type>int(64)|0</data-type>
+      </column>
+      <column id="239" parent="31" name="extensionKey">
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="240" parent="31" name="corpId">
+        <comment>公司ID</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(64)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="241" parent="31" name="corpName">
+        <comment>公司名称</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="242" parent="31" name="extensionCode">
+        <comment>套餐编码</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="243" parent="31" name="chargeDDId">
+        <comment>支付人钉钉ID</comment>
+        <data-type>varchar(128)|0</data-type>
+      </column>
+      <column id="244" parent="31" name="chargeName">
+        <comment>支付人名称</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="245" parent="31" name="chargeTime">
+        <comment>支付时间</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(64)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="246" parent="31" name="pathWay">
+        <comment>途径(正式购买或者试用：FREE BUY)</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;FREE&apos;</default-expression>
+      </column>
+      <column id="247" parent="31" name="expirationTime">
+        <comment>到期时间</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(64)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="248" parent="31" name="extensionStatus">
+        <comment>扩展包状态</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;CURRENT&apos;</default-expression>
+      </column>
+      <index id="249" parent="31" name="CorpId_ExtensionCode_Index">
+        <columns>corpId
+extensionCode</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="250" parent="31" name="PRIMARY">
+        <columns>extensionKey</columns>
+        <primary>1</primary>
+      </key>
+      <column id="251" parent="32" name="extensionCode">
+        <comment>购买的商品码</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="252" parent="32" name="itemName">
+        <comment>购买的商品规格名称</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="253" parent="32" name="itemCode">
+        <comment>购买的商品规格码</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="254" parent="32" name="effectiveMonth">
+        <comment>购买有效时长</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="255" parent="32" name="canActivate">
+        <comment>可激活</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="256" parent="32" name="isTrial">
+        <comment>是否开启试用</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="257" parent="32" name="isAutoTrial">
+        <comment>是否自动开启试用</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="258" parent="32" name="content">
+        <comment>内容</comment>
+        <data-type>varchar(256)|0</data-type>
+      </column>
+      <column id="259" parent="32" name="mark">
+        <comment>返回前端标识</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="260" parent="32" name="extensionLevel">
+        <comment>扩展包规格</comment>
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <key id="261" parent="32" name="PRIMARY">
+        <columns>extensionCode</columns>
+        <primary>1</primary>
+      </key>
+      <column id="262" parent="33" name="invoiceKey">
+        <comment>主键</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11) unsigned|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="263" parent="33" name="createDDId">
+        <comment>钉钉ID</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="264" parent="33" name="createName">
+        <comment>创建人名</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="265" parent="33" name="invoiceType">
+        <comment>发票类型</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="266" parent="33" name="invoiceTitle">
+        <comment>发票抬头</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="267" parent="33" name="dutyId">
+        <comment>税号</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="268" parent="33" name="bank">
+        <comment>银行</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="269" parent="33" name="bankAccount">
+        <comment>银行账户</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="270" parent="33" name="registeredAddress">
+        <comment>注册地址</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="271" parent="33" name="registeredTel">
+        <comment>注册电话</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="272" parent="33" name="receiver">
+        <comment>收件人</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="273" parent="33" name="receiveAddress">
+        <comment>收件地址</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="274" parent="33" name="telephone">
+        <comment>联系电话</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="275" parent="33" name="email">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)|0</data-type>
+      </column>
+      <column id="276" parent="33" name="remark">
+        <comment>备注</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="277" parent="33" name="totalAccount">
+        <comment>发票总金额</comment>
+        <data-type>decimal(16,2)|0</data-type>
+      </column>
+      <column id="278" parent="33" name="createTime">
+        <comment>创建时间</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <key id="279" parent="33" name="PRIMARY">
+        <columns>invoiceKey</columns>
+        <primary>1</primary>
+      </key>
+      <column id="280" parent="34" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11) unsigned|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="281" parent="34" name="sendTime">
+        <comment>记录发生时间</comment>
+        <data-type>varchar(19)|0</data-type>
+      </column>
+      <column id="282" parent="34" name="notifyTime">
+        <comment>通知时间</comment>
+        <data-type>varchar(19)|0</data-type>
+      </column>
+      <column id="283" parent="34" name="notifyType">
+        <comment>通知类型</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="284" parent="34" name="notifyId">
+        <comment>通知校验ID</comment>
+        <data-type>varchar(128)|0</data-type>
+      </column>
+      <column id="285" parent="34" name="signType">
+        <comment>签名类型</comment>
+        <data-type>varchar(10)|0</data-type>
+      </column>
+      <column id="286" parent="34" name="sign">
+        <comment>签名</comment>
+        <data-type>varchar(256)|0</data-type>
+      </column>
+      <column id="287" parent="34" name="outTradeNo">
+        <comment>商户订单号</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="288" parent="34" name="subject">
+        <comment>订单标题</comment>
+        <data-type>varchar(256)|0</data-type>
+      </column>
+      <column id="289" parent="34" name="paymentType">
+        <comment>支付类型</comment>
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="290" parent="34" name="tradeNo">
+        <comment>支付宝交易号</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="291" parent="34" name="tradeStatus">
+        <comment>交易状态</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="292" parent="34" name="sellerId">
+        <comment>卖家支付宝用户号</comment>
+        <data-type>varchar(30)|0</data-type>
+      </column>
+      <column id="293" parent="34" name="sellerEmail">
+        <comment>卖家支付宝账号</comment>
+        <data-type>varchar(100)|0</data-type>
+      </column>
+      <column id="294" parent="34" name="buyerId">
+        <comment>买家支付宝用户号</comment>
+        <data-type>varchar(16)|0</data-type>
+      </column>
+      <column id="295" parent="34" name="buyerEmail">
+        <comment>买家支付宝账号</comment>
+        <data-type>varchar(100)|0</data-type>
+      </column>
+      <column id="296" parent="34" name="totalFee">
+        <comment>交易金额</comment>
+        <data-type>decimal(11,2)|0</data-type>
+      </column>
+      <column id="297" parent="34" name="quantity">
+        <comment>购买数量</comment>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="298" parent="34" name="price">
+        <comment>商品单价</comment>
+        <data-type>decimal(16,2)|0</data-type>
+      </column>
+      <column id="299" parent="34" name="body">
+        <comment>商品描述</comment>
+        <data-type>varchar(400)|0</data-type>
+      </column>
+      <column id="300" parent="34" name="gmtCreate">
+        <comment>交易创建时间</comment>
+        <data-type>varchar(19)|0</data-type>
+      </column>
+      <column id="301" parent="34" name="gmtPayment">
+        <comment>交易付款时间</comment>
+        <data-type>varchar(19)|0</data-type>
+      </column>
+      <column id="302" parent="34" name="isTotalFeeAdjust">
+        <comment>是否调整总价</comment>
+        <data-type>varchar(1)|0</data-type>
+      </column>
+      <column id="303" parent="34" name="useCoupon">
+        <comment>是否使用红包买家</comment>
+        <data-type>varchar(1)|0</data-type>
+      </column>
+      <column id="304" parent="34" name="discount">
+        <comment>折扣</comment>
+        <data-type>varchar(11)|0</data-type>
+      </column>
+      <column id="305" parent="34" name="refundStatus">
+        <comment>退款状态</comment>
+        <data-type>varchar(11)|0</data-type>
+      </column>
+      <column id="306" parent="34" name="gmtRefund">
+        <comment>交易退款时间</comment>
+        <data-type>varchar(19)|0</data-type>
+      </column>
+      <key id="307" parent="34" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="308" parent="35" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11) unsigned|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="309" parent="35" name="sendTime">
+        <comment>发送时间</comment>
+        <data-type>varchar(19)|0</data-type>
+      </column>
+      <column id="310" parent="35" name="resultStatus">
+        <comment>状态编码</comment>
+        <data-type>varchar(11)|0</data-type>
+      </column>
+      <column id="311" parent="35" name="result">
+        <comment>本次操作返回结果</comment>
+        <data-type>varchar(512)|0</data-type>
+      </column>
+      <column id="312" parent="35" name="memo">
+        <comment>提示信息</comment>
+        <data-type>varchar(128)|0</data-type>
+      </column>
+      <key id="313" parent="35" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="314" parent="36" name="orderKey">
+        <comment>主键</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(64) unsigned|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="315" parent="36" name="orderNo">
+        <comment>订单号</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="316" parent="36" name="tradeNo">
+        <comment>支付宝交易号</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="317" parent="36" name="subjectName">
+        <comment>订单名称</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="318" parent="36" name="body">
+        <comment>商品描述</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="319" parent="36" name="corpId">
+        <comment>公司ID</comment>
+        <data-type>varchar(128)|0</data-type>
+      </column>
+      <column id="320" parent="36" name="corpName">
+        <comment>公司名称</comment>
+        <data-type>varchar(128)|0</data-type>
+      </column>
+      <column id="321" parent="36" name="createDDId">
+        <comment>创建人钉钉ID</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="322" parent="36" name="payPerson">
+        <comment>充值人</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="323" parent="36" name="orderType">
+        <comment>订单类型（0:购买，1:续费，2:升级）</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="324" parent="36" name="orderTime">
+        <comment>下单时间</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="325" parent="36" name="payTime">
+        <comment>充值时间</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="326" parent="36" name="orderCloseTime">
+        <comment>订单关闭时间</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="327" parent="36" name="validTime">
+        <comment>帐套到期时间</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="328" parent="36" name="payAmount">
+        <comment>充值数量</comment>
+        <data-type>decimal(16,2)|0</data-type>
+      </column>
+      <column id="329" parent="36" name="goodsCode">
+        <comment>套餐代码</comment>
+        <data-type>varchar(128)|0</data-type>
+      </column>
+      <column id="330" parent="36" name="payMonth">
+        <comment>充值月数</comment>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="331" parent="36" name="tradeStatus">
+        <comment>订单状态信息</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="332" parent="36" name="isInvoice">
+        <comment>是否开具发票</comment>
+        <data-type>varchar(11)|0</data-type>
+        <default-expression>&apos;NO&apos;</default-expression>
+      </column>
+      <column id="333" parent="36" name="invoiceKey">
+        <comment>发票主键</comment>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="334" parent="36" name="isRefund">
+        <comment>是否退款(NO:无退款；YES：退款)</comment>
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;NO&apos;</default-expression>
+      </column>
+      <index id="335" parent="36" name="index">
+        <columns>corpId
+orderNo
+tradeStatus</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="336" parent="36" name="PRIMARY">
+        <columns>orderKey</columns>
+        <primary>1</primary>
+      </key>
+      <column id="337" parent="37" name="orderNo">
+        <mandatory>1</mandatory>
+        <data-type>int(11) unsigned|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="338" parent="37" name="createTime">
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <key id="339" parent="37" name="PRIMARY">
+        <columns>orderNo</columns>
+        <primary>1</primary>
+      </key>
+      <column id="340" parent="38" name="corpPackageKey">
+        <comment>主键</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11) unsigned|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="341" parent="38" name="corpId">
+        <comment>公司ID</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(64)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="342" parent="38" name="corpName">
+        <comment>公司名称</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="343" parent="38" name="goodsCode">
+        <comment>套餐编码</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="344" parent="38" name="chargeDDId">
+        <comment>支付人钉钉ID</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="345" parent="38" name="chargeName">
+        <comment>支付人名称</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="346" parent="38" name="chargeTime">
+        <comment>支付时间</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(64)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="347" parent="38" name="pathWay">
+        <comment>途径(正式购买或者试用：FREE BUY)</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;FREE&apos;</default-expression>
+      </column>
+      <column id="348" parent="38" name="expirationTime">
+        <comment>到期时间</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(64)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="349" parent="38" name="corpType">
+        <comment>公司类型（内测，正式，星级）</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;Beta&apos;</default-expression>
+      </column>
+      <column id="350" parent="38" name="packageStatus">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;CURRENT&apos;</default-expression>
+      </column>
+      <index id="351" parent="38" name="CorpId_GoodsCode_Index">
+        <columns>corpId
+goodsCode</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="352" parent="38" name="PRIMARY">
+        <columns>corpPackageKey</columns>
+        <primary>1</primary>
+      </key>
+      <column id="353" parent="39" name="goodsCode">
+        <mandatory>1</mandatory>
+        <data-type>varchar(64)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="354" parent="39" name="extensionCode">
+        <mandatory>1</mandatory>
+        <data-type>varchar(64)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <key id="355" parent="39" name="PRIMARY">
+        <columns>goodsCode
+extensionCode</columns>
+        <primary>1</primary>
+      </key>
+      <column id="356" parent="40" name="goodsCode">
+        <comment>购买的商品码</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)|0</data-type>
+      </column>
+      <column id="357" parent="40" name="goodsType">
+        <comment>套餐类型</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="358" parent="40" name="itemName">
+        <comment>购买的商品规格名称</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="359" parent="40" name="itemCode">
+        <comment>购买的商品规格码</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="360" parent="40" name="sobCount">
+        <comment>账套数量</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+        <default-expression>&apos;3&apos;</default-expression>
+      </column>
+      <column id="361" parent="40" name="extensionNum">
+        <comment>扩展包数量</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="362" parent="40" name="effectiveMonth">
+        <comment>购买有效时长</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+        <default-expression>&apos;12&apos;</default-expression>
+      </column>
+      <column id="363" parent="40" name="payFee">
+        <comment>价格</comment>
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)|0</data-type>
+      </column>
+      <column id="364" parent="40" name="isTrial">
+        <comment>是否开启试用</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;FALSE&apos;</default-expression>
+      </column>
+      <column id="365" parent="40" name="isAutoTrial">
+        <comment>是否自动开启试用</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;FALSE&apos;</default-expression>
+      </column>
+      <key id="366" parent="40" name="PRIMARY">
+        <columns>goodsCode</columns>
+        <primary>1</primary>
+      </key>
+      <column id="367" parent="41" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11) unsigned|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="368" parent="41" name="sendTime">
+        <comment>发送时间</comment>
+        <data-type>varchar(19)|0</data-type>
+      </column>
+      <column id="369" parent="41" name="notifyTime">
+        <comment>通知时间</comment>
+        <data-type>varchar(19)|0</data-type>
+      </column>
+      <column id="370" parent="41" name="notifyType">
+        <comment>通知类型</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="371" parent="41" name="notifyId">
+        <comment>通知校验ID</comment>
+        <data-type>varchar(128)|0</data-type>
+      </column>
+      <column id="372" parent="41" name="signType">
+        <comment>签名方式</comment>
+        <data-type>varchar(10)|0</data-type>
+      </column>
+      <column id="373" parent="41" name="sign">
+        <comment>签名</comment>
+        <data-type>varchar(256)|0</data-type>
+      </column>
+      <column id="374" parent="41" name="outTradeNo">
+        <comment>商户网站唯一订单号</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="375" parent="41" name="subject">
+        <comment>商品名称</comment>
+        <data-type>varchar(256)|0</data-type>
+      </column>
+      <column id="376" parent="41" name="paymentType">
+        <comment>支付类型</comment>
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="377" parent="41" name="tradeNo">
+        <comment>支付宝交易号</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="378" parent="41" name="tradeStatus">
+        <comment>交易状态</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="379" parent="41" name="gmtCreate">
+        <comment>交易创建时间</comment>
+        <data-type>varchar(19)|0</data-type>
+      </column>
+      <column id="380" parent="41" name="gmtPayment">
+        <comment>交易付款时间</comment>
+        <data-type>varchar(19)|0</data-type>
+      </column>
+      <column id="381" parent="41" name="gmtClose">
+        <comment>交易关闭时间</comment>
+        <data-type>varchar(19)|0</data-type>
+      </column>
+      <column id="382" parent="41" name="refundStatus">
+        <comment>退款状态</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="383" parent="41" name="gmtRefund">
+        <comment>退款时间</comment>
+        <data-type>varchar(19)|0</data-type>
+      </column>
+      <column id="384" parent="41" name="sellerEmail">
+        <comment>卖家支付宝账号</comment>
+        <data-type>varchar(100)|0</data-type>
+      </column>
+      <column id="385" parent="41" name="buyerEmail">
+        <comment>买家支付宝账号</comment>
+        <data-type>varchar(100)|0</data-type>
+      </column>
+      <column id="386" parent="41" name="sellerId">
+        <comment>卖家支付宝账户号</comment>
+        <data-type>varchar(30)|0</data-type>
+      </column>
+      <column id="387" parent="41" name="buyerId">
+        <comment>买家支付宝账户号</comment>
+        <data-type>varchar(30)|0</data-type>
+      </column>
+      <column id="388" parent="41" name="price">
+        <comment>商品单价</comment>
+        <data-type>decimal(11,2)|0</data-type>
+      </column>
+      <column id="389" parent="41" name="totalFee">
+        <comment>交易金额</comment>
+        <data-type>decimal(11,2)|0</data-type>
+      </column>
+      <column id="390" parent="41" name="quantity">
+        <comment>购买数量</comment>
+        <data-type>decimal(11)|0</data-type>
+      </column>
+      <column id="391" parent="41" name="body">
+        <comment>商品描述</comment>
+        <data-type>varchar(400)|0</data-type>
+      </column>
+      <column id="392" parent="41" name="discount">
+        <comment>折扣</comment>
+        <data-type>decimal(11,2)|0</data-type>
+      </column>
+      <column id="393" parent="41" name="isTotalFeeAdjust">
+        <comment>是否调整总价</comment>
+        <data-type>varchar(1)|0</data-type>
+      </column>
+      <column id="394" parent="41" name="useCoupon">
+        <comment>是否使用红包买家</comment>
+        <data-type>varchar(1)|0</data-type>
+      </column>
+      <column id="395" parent="41" name="extraCommonParam">
+        <comment>公用回传参数</comment>
+        <data-type>varchar(400)|0</data-type>
+      </column>
+      <key id="396" parent="41" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="397" parent="42" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11) unsigned|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="398" parent="42" name="sendTime">
+        <comment>发送时间</comment>
+        <data-type>varchar(19)|0</data-type>
+      </column>
+      <column id="399" parent="42" name="isSuccess">
+        <comment>成功标识</comment>
+        <data-type>varchar(1)|0</data-type>
+      </column>
+      <column id="400" parent="42" name="signType">
+        <comment>签名方式</comment>
+        <data-type>varchar(10)|0</data-type>
+      </column>
+      <column id="401" parent="42" name="sign">
+        <comment>签名</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="402" parent="42" name="outTradeNo">
+        <comment>商户网站唯一订单号</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="403" parent="42" name="subject">
+        <comment>商品名称</comment>
+        <data-type>varchar(256)|0</data-type>
+      </column>
+      <column id="404" parent="42" name="paymentType">
+        <comment>支付类型</comment>
+        <data-type>varchar(4)|0</data-type>
+      </column>
+      <column id="405" parent="42" name="exterface">
+        <comment>接口名称</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="406" parent="42" name="tradeNo">
+        <comment>支付宝交易号</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="407" parent="42" name="tradeStatus">
+        <comment>交易状态</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="408" parent="42" name="notifyId">
+        <comment>通知校验ID</comment>
+        <data-type>varchar(256)|0</data-type>
+      </column>
+      <column id="409" parent="42" name="notifyTime">
+        <comment>通知时间</comment>
+        <data-type>varchar(19)|0</data-type>
+      </column>
+      <column id="410" parent="42" name="notifyType">
+        <comment>通知类型</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="411" parent="42" name="sellerEmail">
+        <comment>卖家支付宝账号</comment>
+        <data-type>varchar(100)|0</data-type>
+      </column>
+      <column id="412" parent="42" name="buyerEmail">
+        <comment>买家支付宝账号</comment>
+        <data-type>varchar(100)|0</data-type>
+      </column>
+      <column id="413" parent="42" name="sellerId">
+        <comment>卖家支付宝账户号</comment>
+        <data-type>varchar(30)|0</data-type>
+      </column>
+      <column id="414" parent="42" name="buyerId">
+        <comment>买家支付宝账户号</comment>
+        <data-type>varchar(30)|0</data-type>
+      </column>
+      <column id="415" parent="42" name="totalFee">
+        <comment>交易金额</comment>
+        <data-type>decimal(11,2)|0</data-type>
+      </column>
+      <column id="416" parent="42" name="body">
+        <comment>商品描述</comment>
+        <data-type>varchar(400)|0</data-type>
+      </column>
+      <column id="417" parent="42" name="extraCommonParam">
+        <comment>公用回传参数</comment>
+        <data-type>varchar(400)|0</data-type>
+      </column>
+      <key id="418" parent="42" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="419" parent="43" name="asskey">
+        <mandatory>1</mandatory>
+        <data-type>int(64) unsigned|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="420" parent="43" name="sobid">
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)|0</data-type>
+      </column>
+      <column id="421" parent="43" name="assid">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="422" parent="43" name="assname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)|0</data-type>
+      </column>
+      <column id="423" parent="43" name="asscategory">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)|0</data-type>
+      </column>
+      <column id="424" parent="43" name="disableTime">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <index id="425" parent="43" name="ass_sobid_index">
+        <columns>sobid</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="426" parent="43" name="PRIMARY">
+        <columns>asskey</columns>
+        <primary>1</primary>
+      </key>
+      <column id="427" parent="44" name="bakey">
+        <mandatory>1</mandatory>
+        <data-type>int(64) unsigned|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="428" parent="44" name="sobid">
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)|0</data-type>
+      </column>
+      <column id="429" parent="44" name="year">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="430" parent="44" name="month">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="431" parent="44" name="acid">
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="432" parent="44" name="credit">
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)|0</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="433" parent="44" name="debit">
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)|0</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="434" parent="44" name="closingbalance">
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)|0</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="435" parent="44" name="openingbalance">
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)|0</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="436" parent="44" name="beginCount">
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)|0</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="437" parent="44" name="closingCount">
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)|0</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="438" parent="44" name="debitCount">
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)|0</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="439" parent="44" name="creditCount">
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)|0</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <index id="440" parent="44" name="ba_sobid">
+        <columns>sobid</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="441" parent="44" name="PRIMARY">
+        <columns>bakey</columns>
+        <primary>1</primary>
+      </key>
+      <column id="442" parent="45" name="baFcKey">
+        <mandatory>1</mandatory>
+        <data-type>int(64) unsigned|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="443" parent="45" name="sobid">
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)|0</data-type>
+      </column>
+      <column id="444" parent="45" name="year">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="445" parent="45" name="month">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="446" parent="45" name="fcNumber">
+        <comment>币别编码</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="447" parent="45" name="acid">
+        <comment>科目ID</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="448" parent="45" name="credit">
+        <comment>本位币贷方发生额</comment>
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)|0</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="449" parent="45" name="fcCredit">
+        <comment>原币贷方发生额</comment>
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)|0</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="450" parent="45" name="debit">
+        <comment>本位币借方发生额</comment>
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)|0</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="451" parent="45" name="fcDebit">
+        <comment>原币借方发生额</comment>
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)|0</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="452" parent="45" name="debitOpeningBalance">
+        <comment>本位币借方期初值</comment>
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)|0</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="453" parent="45" name="creditOpeningBalance">
+        <comment>本位币贷方期初值</comment>
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)|0</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="454" parent="45" name="debitClosingBalance">
+        <comment>本位币借方期末值</comment>
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)|0</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="455" parent="45" name="creditClosingBalance">
+        <comment>本位币贷方期末值</comment>
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)|0</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="456" parent="45" name="fcDebitOpeningBalance">
+        <comment>原币借方期初值</comment>
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)|0</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="457" parent="45" name="fcCreditOpeningBalance">
+        <comment>原币贷方期初值</comment>
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)|0</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="458" parent="45" name="fcDebitClosingBalance">
+        <comment>原币借方期末值</comment>
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)|0</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="459" parent="45" name="fcCreditClosingBalance">
+        <comment>原币贷方期末值</comment>
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)|0</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <index id="460" parent="45" name="UN_baFc">
+        <columns>sobid
+acid
+year
+month</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="461" parent="45" name="PRIMARY">
+        <columns>baFcKey</columns>
+        <primary>1</primary>
+      </key>
+      <key id="462" parent="45" name="UN_baFc">
+        <columns>sobid
+acid
+year
+month</columns>
+        <underlying-index>UN_baFc</underlying-index>
+      </key>
+      <column id="463" parent="46" name="bakey">
+        <mandatory>1</mandatory>
+        <data-type>int(64)|0</data-type>
+      </column>
+      <column id="464" parent="46" name="baindex">
+        <mandatory>1</mandatory>
+        <data-type>int(64)|0</data-type>
+      </column>
+      <column id="465" parent="46" name="asskey">
+        <mandatory>1</mandatory>
+        <data-type>int(64)|0</data-type>
+      </column>
+      <column id="466" parent="46" name="assDebit">
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)|0</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="467" parent="46" name="assCredit">
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)|0</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="468" parent="46" name="assClosingBalance">
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)|0</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="469" parent="46" name="assOpeningBalance">
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)|0</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="470" parent="46" name="assDebitCount">
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)|0</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="471" parent="46" name="assCreditCount">
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)|0</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="472" parent="46" name="assClosingCount">
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)|0</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="473" parent="46" name="assBeginCount">
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)|0</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <index id="474" parent="46" name="ba_ass_asskey">
+        <columns>asskey</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="475" parent="46" name="ba_ass_bakey">
+        <columns>bakey</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="476" parent="46" name="PRIMARY">
+        <columns>bakey
+baindex
+asskey</columns>
+        <primary>1</primary>
+      </key>
+      <column id="477" parent="47" name="bakey">
+        <mandatory>1</mandatory>
+        <data-type>int(64)|0</data-type>
+      </column>
+      <column id="478" parent="47" name="baindex">
+        <mandatory>1</mandatory>
+        <data-type>int(64)|0</data-type>
+      </column>
+      <column id="479" parent="47" name="asskey">
+        <mandatory>1</mandatory>
+        <data-type>int(64)|0</data-type>
+      </column>
+      <column id="480" parent="47" name="assDebit">
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)|0</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="481" parent="47" name="assCredit">
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)|0</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="482" parent="47" name="assClosingBalance">
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)|0</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="483" parent="47" name="assOpeningBalance">
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)|0</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="484" parent="47" name="assDebitCount">
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)|0</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="485" parent="47" name="assCreditCount">
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)|0</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="486" parent="47" name="assClosingCount">
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)|0</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="487" parent="47" name="assBeginCount">
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)|0</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <index id="488" parent="47" name="ba_ass_asskey">
+        <columns>asskey</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="489" parent="47" name="ba_ass_bakey">
+        <columns>bakey</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="490" parent="47" name="PRIMARY">
+        <columns>bakey
+baindex
+asskey</columns>
+        <primary>1</primary>
+      </key>
+      <column id="491" parent="48" name="initKey">
+        <mandatory>1</mandatory>
+        <data-type>int(11) unsigned|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="492" parent="48" name="lineName">
+        <data-type>varchar(45)|0</data-type>
+      </column>
+      <column id="493" parent="48" name="lineIndex">
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="494" parent="48" name="sobId">
+        <data-type>varchar(50)|0</data-type>
+      </column>
+      <column id="495" parent="48" name="amount">
+        <data-type>decimal(16,2)|0</data-type>
+      </column>
+      <column id="496" parent="48" name="initYear">
+        <data-type>varchar(11)|0</data-type>
+      </column>
+      <column id="497" parent="48" name="reportName">
+        <data-type>varchar(45)|0</data-type>
+      </column>
+      <key id="498" parent="48" name="PRIMARY">
+        <columns>initKey</columns>
+        <primary>1</primary>
+      </key>
+      <column id="499" parent="49" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11) unsigned|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="500" parent="49" name="sobid">
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)|0</data-type>
+      </column>
+      <column id="501" parent="49" name="year">
+        <data-type>varchar(16)|0</data-type>
+      </column>
+      <column id="502" parent="49" name="month">
+        <data-type>varchar(16)|0</data-type>
+      </column>
+      <column id="503" parent="49" name="lineIndex">
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="504" parent="49" name="lineName">
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="505" parent="49" name="amount">
+        <data-type>decimal(16,2)|0</data-type>
+      </column>
+      <index id="506" parent="49" name="unique">
+        <columns>sobid
+lineIndex
+year
+month</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="507" parent="49" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <key id="508" parent="49" name="unique">
+        <columns>sobid
+lineIndex
+year
+month</columns>
+        <underlying-index>unique</underlying-index>
+      </key>
+      <column id="509" parent="50" name="cardKey">
+        <comment>主键</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="510" parent="50" name="sobId">
+        <comment>帐套id</comment>
+        <data-type>varchar(128)|0</data-type>
+      </column>
+      <column id="511" parent="50" name="serialNumber">
+        <comment>类别号</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="512" parent="50" name="cardNumber">
+        <comment>编码</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="513" parent="50" name="cardName">
+        <comment>卡片名称</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="514" parent="50" name="assetsKey">
+        <comment>资产类别Key</comment>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="515" parent="50" name="classificationKey">
+        <comment>辅助类别Key</comment>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="516" parent="50" name="labelKey">
+        <comment>标签</comment>
+        <data-type>varchar(50)|0</data-type>
+      </column>
+      <column id="517" parent="50" name="startTime">
+        <comment>开始使用时间</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="518" parent="50" name="inputPeriod">
+        <comment>录入期间</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="519" parent="50" name="currentCardTime">
+        <comment>本期期间</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="520" parent="50" name="depreciationMethod">
+        <comment>折旧方法</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="521" parent="50" name="totalMonth">
+        <comment>使用总期限</comment>
+        <data-type>decimal(11)|0</data-type>
+      </column>
+      <column id="522" parent="50" name="debitId">
+        <comment>财务处理借方科目id</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="523" parent="50" name="debitName">
+        <comment>财务处理借方科目名称</comment>
+        <data-type>varchar(128)|0</data-type>
+      </column>
+      <column id="524" parent="50" name="creditId">
+        <comment>财务处理贷方科目id</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="525" parent="50" name="creditName">
+        <comment>财务处理贷方科目名称</comment>
+        <data-type>varchar(128)|0</data-type>
+      </column>
+      <column id="526" parent="50" name="cardValue">
+        <comment>原值</comment>
+        <data-type>decimal(18,2)|0</data-type>
+      </column>
+      <column id="527" parent="50" name="salvage">
+        <comment>残值率</comment>
+        <data-type>decimal(18,2)|0</data-type>
+      </column>
+      <column id="528" parent="50" name="residualValue">
+        <comment>预计残值</comment>
+        <data-type>decimal(18,2)|0</data-type>
+      </column>
+      <column id="529" parent="50" name="monthlyDepreciation">
+        <comment>月折旧／分摊</comment>
+        <data-type>decimal(18,2)|0</data-type>
+      </column>
+      <column id="530" parent="50" name="alreadyDepreciationTime">
+        <comment>已折旧／分摊期间</comment>
+        <data-type>decimal(18,2)|0</data-type>
+      </column>
+      <column id="531" parent="50" name="sumDepreciation">
+        <comment>期初累计折旧／分摊</comment>
+        <data-type>decimal(18,2)|0</data-type>
+      </column>
+      <column id="532" parent="50" name="earlyNetWorth">
+        <comment>期初净值</comment>
+        <data-type>decimal(18,2)|0</data-type>
+      </column>
+      <column id="533" parent="50" name="status">
+        <comment>卡片状态(0、正常使用1、清理中2、已清理3、折旧完毕4、删除)</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(8)|0</data-type>
+        <default-expression>&apos;1&apos;</default-expression>
+      </column>
+      <column id="534" parent="50" name="clearCardYear">
+        <comment>清理卡片年份</comment>
+        <data-type>varchar(11)|0</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="535" parent="50" name="clearCardMonth">
+        <comment>清理卡片月份</comment>
+        <data-type>varchar(11)|0</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="536" parent="50" name="endTime">
+        <comment>报废年月</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="537" parent="50" name="remark">
+        <comment>卡片备注</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="538" parent="50" name="col1">
+        <comment>预留字段</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="539" parent="50" name="col2">
+        <comment>预留字段</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <index id="540" parent="50" name="card_sobId">
+        <columns>sobId</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="541" parent="50" name="card_sobId_number">
+        <columns>sobId
+cardNumber</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="542" parent="50" name="card_status">
+        <columns>status</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="543" parent="50" name="PRIMARY">
+        <columns>cardKey</columns>
+        <primary>1</primary>
+      </key>
+      <key id="544" parent="50" name="card_sobId_number">
+        <columns>sobId
+cardNumber</columns>
+        <underlying-index>card_sobId_number</underlying-index>
+      </key>
+      <column id="545" parent="51" name="cardAssKey">
+        <comment>主键</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="546" parent="51" name="cardKey">
+        <comment>卡片主键</comment>
+        <data-type>varchar(50)|0</data-type>
+      </column>
+      <column id="547" parent="51" name="assKey">
+        <comment>辅助核算主键</comment>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="548" parent="51" name="assDirection">
+        <comment>辅助核算方向</comment>
+        <data-type>varchar(10)|0</data-type>
+      </column>
+      <index id="549" parent="51" name="CardAssIndex">
+        <columns>cardKey
+assKey</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="550" parent="51" name="PRIMARY">
+        <columns>cardAssKey</columns>
+        <primary>1</primary>
+      </key>
+      <column id="551" parent="52" name="classificationKey">
+        <comment>主键</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11) unsigned|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="552" parent="52" name="sobId">
+        <comment>帐套id</comment>
+        <data-type>varchar(128)|0</data-type>
+      </column>
+      <column id="553" parent="52" name="serialNumber">
+        <comment>分类编码</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="554" parent="52" name="serialName">
+        <comment>分类名称</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="555" parent="52" name="upperAssetsName">
+        <comment>上级资产类别名称</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="556" parent="52" name="upperAssetsNumber">
+        <comment>上级资产类别id</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="557" parent="52" name="depreciationMethod">
+        <comment>折旧方法</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="558" parent="52" name="totalMonth">
+        <comment>使用总期限</comment>
+        <data-type>decimal(11)|0</data-type>
+      </column>
+      <column id="559" parent="52" name="salvage">
+        <comment>残值率</comment>
+        <data-type>decimal(16,2)|0</data-type>
+      </column>
+      <column id="560" parent="52" name="assetsAcId">
+        <comment>资产科目id</comment>
+        <data-type>varchar(11)|0</data-type>
+      </column>
+      <column id="561" parent="52" name="assetsAcName">
+        <comment>资产科目名称</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="562" parent="52" name="debitId">
+        <comment>财务处理借方科目id</comment>
+        <data-type>varchar(11)|0</data-type>
+      </column>
+      <column id="563" parent="52" name="debitName">
+        <comment>财务处理借方科目名称</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="564" parent="52" name="creditId">
+        <comment>财务处理贷方科目id</comment>
+        <data-type>varchar(11)|0</data-type>
+      </column>
+      <column id="565" parent="52" name="creditName">
+        <comment>财务处理贷方科目名称</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="566" parent="52" name="remark">
+        <comment>备注</comment>
+        <data-type>varchar(512)|0</data-type>
+      </column>
+      <index id="567" parent="52" name="classification_sobId">
+        <columns>sobId</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="568" parent="52" name="classification_unique_sobid_serialnumber">
+        <columns>serialNumber
+sobId</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="569" parent="52" name="PRIMARY">
+        <columns>classificationKey</columns>
+        <primary>1</primary>
+      </key>
+      <key id="570" parent="52" name="classification_unique_sobid_serialnumber">
+        <columns>serialNumber
+sobId</columns>
+        <underlying-index>classification_unique_sobid_serialnumber</underlying-index>
+      </key>
+      <column id="571" parent="53" name="classificationAssKey">
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="572" parent="53" name="classificationKey">
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="573" parent="53" name="assKey">
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="574" parent="53" name="assGroup">
+        <data-type>varchar(50)|0</data-type>
+      </column>
+      <index id="575" parent="53" name="ClassificationAssIndex">
+        <columns>classificationKey
+assKey</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="576" parent="53" name="PRIMARY">
+        <columns>classificationAssKey</columns>
+        <primary>1</primary>
+      </key>
+      <column id="577" parent="54" name="corpKey">
+        <mandatory>1</mandatory>
+        <data-type>int(64) unsigned|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="578" parent="54" name="corpId">
+        <data-type>varchar(128)|0</data-type>
+      </column>
+      <column id="579" parent="54" name="appId">
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="580" parent="54" name="corpName">
+        <data-type>varchar(128)|0</data-type>
+      </column>
+      <column id="581" parent="54" name="corpStatus">
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="582" parent="54" name="createTime">
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="583" parent="54" name="updateTime">
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="584" parent="54" name="freeTime">
+        <comment>免费试用到期时间</comment>
+        <data-type>varchar(64)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="585" parent="54" name="level">
+        <comment>0:被拦的公司；1、正常使用的公司</comment>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="586" parent="54" name="packageKey">
+        <data-type>int(64)|0</data-type>
+      </column>
+      <column id="587" parent="54" name="accountBalance">
+        <data-type>decimal(16,2)|0</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="588" parent="54" name="chargeTime">
+        <comment>充值时间</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="589" parent="54" name="closeTime">
+        <comment>公司帐套到期时间(不允许为空)</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="590" parent="54" name="corpType">
+        <comment>公司类型（内测，正式，星级）</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <index id="591" parent="54" name="unq_corpid">
+        <columns>corpId</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="592" parent="54" name="PRIMARY">
+        <columns>corpKey</columns>
+        <primary>1</primary>
+      </key>
+      <key id="593" parent="54" name="unq_corpid">
+        <columns>corpId</columns>
+        <underlying-index>unq_corpid</underlying-index>
+      </key>
+      <column id="594" parent="55" name="filterKey">
+        <comment>主键</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(64)|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="595" parent="55" name="corpId">
+        <comment>公司ID</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <key id="596" parent="55" name="PRIMARY">
+        <columns>filterKey</columns>
+        <primary>1</primary>
+      </key>
+      <column id="597" parent="56" name="appId">
+        <comment>应用ID</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="598" parent="56" name="appType">
+        <comment>应用类型</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="599" parent="56" name="suiteKey">
+        <data-type>varchar(256)|0</data-type>
+      </column>
+      <column id="600" parent="56" name="suiteSecret">
+        <data-type>varchar(256)|0</data-type>
+      </column>
+      <column id="601" parent="56" name="token">
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="602" parent="56" name="encodingAesKey">
+        <data-type>varchar(256)|0</data-type>
+      </column>
+      <key id="603" parent="56" name="PRIMARY">
+        <columns>appId</columns>
+        <primary>1</primary>
+      </key>
+      <column id="604" parent="57" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11) unsigned|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="605" parent="57" name="sendTime">
+        <comment>时间</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="606" parent="57" name="appId">
+        <comment>appId</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="607" parent="57" name="signature">
+        <data-type>varchar(256)|0</data-type>
+      </column>
+      <column id="608" parent="57" name="timestamp">
+        <data-type>varchar(256)|0</data-type>
+      </column>
+      <column id="609" parent="57" name="nonce">
+        <data-type>varchar(256)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="610" parent="57" name="eventType">
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <index id="611" parent="57" name="idx_eventType">
+        <columns>eventType</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="612" parent="57" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="613" parent="58" name="enclosurekey">
+        <mandatory>1</mandatory>
+        <data-type>int(11) unsigned|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="614" parent="58" name="enclosurepath">
+        <comment>文件地址</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(256)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="615" parent="58" name="vckey">
+        <mandatory>1</mandatory>
+        <data-type>int(64)|0</data-type>
+      </column>
+      <column id="616" parent="58" name="filename">
+        <comment>文件名</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(64)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="617" parent="58" name="thumbnail">
+        <comment>缩略图地址</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(288)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="618" parent="58" name="size">
+        <comment>kb单位</comment>
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)|0</data-type>
+      </column>
+      <column id="619" parent="58" name="label">
+        <comment>标签</comment>
+        <data-type>varchar(11)|0</data-type>
+      </column>
+      <column id="620" parent="58" name="deleteTime">
+        <comment>识别假删的标示</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="621" parent="58" name="imageOrFile">
+        <comment>默认为FALSE true为图片 false为非图片</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(11)|0</data-type>
+        <default-expression>&apos;FALSE&apos;</default-expression>
+      </column>
+      <column id="622" parent="58" name="sobId">
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="623" parent="58" name="corpId">
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="624" parent="58" name="mimeType">
+        <comment>文件类型</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="625" parent="58" name="uploadTime">
+        <comment>上传时间</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(64)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <index id="626" parent="58" name="IDX_vckey">
+        <columns>vckey</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="627" parent="58" name="PRIMARY">
+        <columns>enclosurekey</columns>
+        <primary>1</primary>
+      </key>
+      <column id="628" parent="59" name="code">
+        <comment>异常代码</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11) unsigned|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="629" parent="59" name="isOpen">
+        <comment>是否开启通知</comment>
+        <data-type>varchar(16)|0</data-type>
+        <default-expression>&apos;TRUE&apos;</default-expression>
+      </column>
+      <key id="630" parent="59" name="PRIMARY">
+        <columns>code</columns>
+        <primary>1</primary>
+      </key>
+      <column id="631" parent="60" name="key">
+        <mandatory>1</mandatory>
+        <data-type>int(11) unsigned|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="632" parent="60" name="fcNumber">
+        <comment>外币编码</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="633" parent="60" name="name">
+        <comment>外币名称</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="634" parent="60" name="sobid">
+        <comment>帐套id</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="635" parent="60" name="exchange">
+        <comment>汇率</comment>
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,4)|0</data-type>
+      </column>
+      <column id="636" parent="60" name="standard">
+        <comment>是否是本位币（1:是；0:不是）</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(1)|0</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <index id="637" parent="60" name="number">
+        <columns>fcNumber
+sobid</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="638" parent="60" name="PRIMARY">
+        <columns>key</columns>
+        <primary>1</primary>
+      </key>
+      <key id="639" parent="60" name="number">
+        <columns>fcNumber
+sobid</columns>
+        <underlying-index>number</underlying-index>
+      </key>
+      <column id="640" parent="61" name="initKey">
+        <mandatory>1</mandatory>
+        <data-type>int(11) unsigned|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="641" parent="61" name="sobId">
+        <data-type>varchar(128)|0</data-type>
+      </column>
+      <column id="642" parent="61" name="initYear">
+        <data-type>varchar(16)|0</data-type>
+      </column>
+      <column id="643" parent="61" name="reportName">
+        <data-type>varchar(45)|0</data-type>
+      </column>
+      <column id="644" parent="61" name="lineName">
+        <data-type>varchar(45)|0</data-type>
+      </column>
+      <column id="645" parent="61" name="lineIndex">
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="646" parent="61" name="amount">
+        <data-type>decimal(16,2)|0</data-type>
+      </column>
+      <key id="647" parent="61" name="PRIMARY">
+        <columns>initKey</columns>
+        <primary>1</primary>
+      </key>
+      <column id="648" parent="62" name="jvkey">
+        <comment>分录key</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(64)|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="649" parent="62" name="vckey">
+        <comment>凭证key</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(64)|0</data-type>
+      </column>
+      <column id="650" parent="62" name="jvindex">
+        <comment>凭证的分录序号</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(10)|0</data-type>
+      </column>
+      <column id="651" parent="62" name="jvabstract">
+        <comment>分录摘要</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="652" parent="62" name="acid">
+        <comment>科目id</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="653" parent="62" name="jvdirection">
+        <comment>分录借贷方向</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(16)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="654" parent="62" name="jvamount">
+        <comment>分录金额</comment>
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)|0</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <index id="655" parent="62" name="VcJvIndexUn">
+        <columns>vckey
+jvindex</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="656" parent="62" name="PRIMARY">
+        <columns>jvkey</columns>
+        <primary>1</primary>
+      </key>
+      <key id="657" parent="62" name="VcJvIndexUn">
+        <columns>vckey
+jvindex</columns>
+        <underlying-index>VcJvIndexUn</underlying-index>
+      </key>
+      <column id="658" parent="63" name="jvkey">
+        <mandatory>1</mandatory>
+        <data-type>int(64)|0</data-type>
+      </column>
+      <column id="659" parent="63" name="asskey">
+        <mandatory>1</mandatory>
+        <data-type>int(64)|0</data-type>
+      </column>
+      <index id="660" parent="63" name="jv_ass_asskey">
+        <columns>asskey</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="661" parent="63" name="jv_ass_jvkey">
+        <columns>jvkey</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <column id="662" parent="64" name="jvkey">
+        <mandatory>1</mandatory>
+        <data-type>int(64)|0</data-type>
+      </column>
+      <column id="663" parent="64" name="assid">
+        <comment>辅助核算id</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="664" parent="64" name="assname">
+        <comment>辅助核算名称</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="665" parent="64" name="asscategory">
+        <comment>辅助核算类别</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <index id="666" parent="64" name="jv_ass_jvkey">
+        <columns>jvkey</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="667" parent="64" name="un_jvkey_id_cateogry">
+        <columns>assid
+jvkey
+asscategory</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="668" parent="64" name="un_jvkey_id_cateogry">
+        <columns>assid
+jvkey
+asscategory</columns>
+        <underlying-index>un_jvkey_id_cateogry</underlying-index>
+      </key>
+      <column id="669" parent="65" name="key">
+        <mandatory>1</mandatory>
+        <data-type>int(11) unsigned|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="670" parent="65" name="jvkey">
+        <comment>分录主键</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="671" parent="65" name="fcNumber">
+        <comment>外币编码</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="672" parent="65" name="exchange">
+        <comment>外币汇率</comment>
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,4)|0</data-type>
+      </column>
+      <column id="673" parent="65" name="standardAmount">
+        <comment>原币</comment>
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)|0</data-type>
+      </column>
+      <index id="674" parent="65" name="IDX_jvkey">
+        <columns>jvkey</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="675" parent="65" name="PRIMARY">
+        <columns>key</columns>
+        <primary>1</primary>
+      </key>
+      <column id="676" parent="66" name="jvkey">
+        <comment>分录key</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(64)|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="677" parent="66" name="vckey">
+        <comment>凭证key</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(64)|0</data-type>
+      </column>
+      <column id="678" parent="66" name="jvindex">
+        <comment>凭证的分录序号</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(10)|0</data-type>
+      </column>
+      <column id="679" parent="66" name="jvabstract">
+        <comment>分录摘要</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="680" parent="66" name="acid">
+        <comment>科目id</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="681" parent="66" name="jvdirection">
+        <comment>分录借贷方向</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(16)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="682" parent="66" name="jvamount">
+        <comment>分录金额</comment>
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)|0</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="683" parent="66" name="acname">
+        <comment>科目名称</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <index id="684" parent="66" name="VcJvIndexUn">
+        <columns>vckey
+jvindex</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="685" parent="66" name="PRIMARY">
+        <columns>jvkey</columns>
+        <primary>1</primary>
+      </key>
+      <key id="686" parent="66" name="VcJvIndexUn">
+        <columns>vckey
+jvindex</columns>
+        <underlying-index>VcJvIndexUn</underlying-index>
+      </key>
+      <column id="687" parent="67" name="jvunitkey">
+        <mandatory>1</mandatory>
+        <data-type>int(11) unsigned|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="688" parent="67" name="jvkey">
+        <comment>分录主键</comment>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="689" parent="67" name="jvcount">
+        <comment>计量数量</comment>
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)|0</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="690" parent="67" name="price">
+        <comment>单价</comment>
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)|0</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="691" parent="67" name="jvunit">
+        <comment>单位</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <index id="692" parent="67" name="IDX_JVKEY">
+        <columns>jvkey</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="693" parent="67" name="PRIMARY">
+        <columns>jvunitkey</columns>
+        <primary>1</primary>
+      </key>
+      <column id="694" parent="68" name="jvunitkey">
+        <mandatory>1</mandatory>
+        <data-type>int(11) unsigned|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="695" parent="68" name="jvkey">
+        <comment>分录主键</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="696" parent="68" name="jvcount">
+        <comment>计量数量</comment>
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)|0</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="697" parent="68" name="price">
+        <comment>单价</comment>
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)|0</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="698" parent="68" name="jvunit">
+        <comment>单位</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(64)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <index id="699" parent="68" name="IDX_JVKEY">
+        <columns>jvkey</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="700" parent="68" name="PRIMARY">
+        <columns>jvunitkey</columns>
+        <primary>1</primary>
+      </key>
+      <column id="701" parent="69" name="labelKey">
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)|0</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="702" parent="69" name="label">
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <index id="703" parent="69" name="unique_label">
+        <columns>labelKey
+label</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="704" parent="69" name="unique_label">
+        <columns>labelKey
+label</columns>
+        <underlying-index>unique_label</underlying-index>
+      </key>
+      <column id="705" parent="70" name="logKey">
+        <comment>日志主键</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(64) unsigned|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="706" parent="70" name="startTime">
+        <comment>日志开始时间</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="707" parent="70" name="userName">
+        <comment>用户名称</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="708" parent="70" name="durationTime">
+        <comment>持续时间</comment>
+        <data-type>double|0</data-type>
+      </column>
+      <column id="709" parent="70" name="userID">
+        <comment>用户id</comment>
+        <data-type>varchar(64)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="710" parent="70" name="sobName">
+        <comment>帐套名称</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="711" parent="70" name="sobID">
+        <comment>帐套id</comment>
+        <data-type>varchar(128)|0</data-type>
+      </column>
+      <column id="712" parent="70" name="corpName">
+        <comment>公司名称</comment>
+        <data-type>varchar(128)|0</data-type>
+      </column>
+      <column id="713" parent="70" name="corpID">
+        <comment>公司id</comment>
+        <data-type>varchar(128)|0</data-type>
+      </column>
+      <column id="714" parent="70" name="bussinessType">
+        <comment>操作业务名称</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="715" parent="70" name="operationtype">
+        <comment>操作类型（增上改查）</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="716" parent="70" name="returncode">
+        <comment>返回状态码</comment>
+        <data-type>varchar(16)|0</data-type>
+      </column>
+      <column id="717" parent="70" name="comments">
+        <comment>具体操作内容</comment>
+        <data-type>varchar(256)|0</data-type>
+      </column>
+      <column id="718" parent="70" name="source">
+        <comment>日志来源</comment>
+        <data-type>varchar(16)|0</data-type>
+      </column>
+      <column id="719" parent="70" name="serviceIP">
+        <mandatory>1</mandatory>
+        <data-type>varchar(64)|0</data-type>
+        <default-expression>&apos;10.24.40.167&apos;</default-expression>
+      </column>
+      <column id="720" parent="70" name="servicePort">
+        <mandatory>1</mandatory>
+        <data-type>varchar(16)|0</data-type>
+        <default-expression>&apos;5006&apos;</default-expression>
+      </column>
+      <column id="721" parent="70" name="appId">
+        <data-type>varchar(16)|0</data-type>
+        <default-expression>&apos;1390&apos;</default-expression>
+      </column>
+      <index id="722" parent="70" name="idx_corpid">
+        <columns>corpID</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="723" parent="70" name="idx_sobid">
+        <columns>sobID</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="724" parent="70" name="idx_userid">
+        <columns>userID</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="725" parent="70" name="PRIMARY">
+        <columns>logKey</columns>
+        <primary>1</primary>
+      </key>
+      <column id="726" parent="71" name="logKey">
+        <mandatory>1</mandatory>
+        <data-type>int(11) unsigned|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="727" parent="71" name="URL">
+        <comment>路由地址</comment>
+        <data-type>varchar(128)|0</data-type>
+      </column>
+      <column id="728" parent="71" name="method">
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="729" parent="71" name="sessionId">
+        <data-type>varchar(128)|0</data-type>
+      </column>
+      <column id="730" parent="71" name="startTime">
+        <comment>开始时间</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="731" parent="71" name="duration">
+        <comment>持续时间</comment>
+        <data-type>double|0</data-type>
+      </column>
+      <column id="732" parent="71" name="userUUID">
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="733" parent="71" name="userName">
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="734" parent="71" name="sobId">
+        <data-type>varchar(128)|0</data-type>
+      </column>
+      <column id="735" parent="71" name="corpId">
+        <data-type>varchar(128)|0</data-type>
+      </column>
+      <column id="736" parent="71" name="appId">
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="737" parent="71" name="servicePort">
+        <data-type>varchar(16)|0</data-type>
+      </column>
+      <column id="738" parent="71" name="serviceIP">
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="739" parent="71" name="network">
+        <data-type>varchar(16)|0</data-type>
+      </column>
+      <column id="740" parent="71" name="source">
+        <data-type>varchar(16)|0</data-type>
+      </column>
+      <column id="741" parent="71" name="returnCode">
+        <data-type>varchar(16)|0</data-type>
+      </column>
+      <column id="742" parent="71" name="comments">
+        <data-type>varchar(256)|0</data-type>
+      </column>
+      <column id="743" parent="71" name="businessComments1">
+        <data-type>varchar(256)|0</data-type>
+      </column>
+      <column id="744" parent="71" name="businessComments2">
+        <data-type>varchar(256)|0</data-type>
+      </column>
+      <column id="745" parent="71" name="businessType">
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="746" parent="71" name="isUserAvailable">
+        <data-type>varchar(16)|0</data-type>
+      </column>
+      <column id="747" parent="71" name="operationType">
+        <data-type>varchar(16)|0</data-type>
+      </column>
+      <index id="748" parent="71" name="LOG_INDEX">
+        <columns>sessionId
+startTime
+userUUID
+sobId
+corpId</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="749" parent="71" name="PRIMARY">
+        <columns>logKey</columns>
+        <primary>1</primary>
+      </key>
+      <column id="750" parent="72" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11) unsigned|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="751" parent="72" name="create_time">
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="752" parent="72" name="owner">
+        <data-type>varchar(128)|0</data-type>
+        <default-expression>&apos;public&apos;</default-expression>
+      </column>
+      <column id="753" parent="72" name="content">
+        <data-type>varchar(128)|0</data-type>
+      </column>
+      <column id="754" parent="72" name="status">
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="755" parent="72" name="url">
+        <data-type>varchar(128)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="756" parent="72" name="col2">
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <key id="757" parent="72" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="758" parent="73" name="opKey">
+        <mandatory>1</mandatory>
+        <data-type>int(11) unsigned|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="759" parent="73" name="businessType">
+        <comment>业务类型</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(64)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="760" parent="73" name="method">
+        <comment>方法名称</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="761" parent="73" name="isUserAvailable">
+        <comment>用户是否可见</comment>
+        <data-type>varchar(10)|0</data-type>
+        <default-expression>&apos;FALSE&apos;</default-expression>
+      </column>
+      <column id="762" parent="73" name="operationType">
+        <comment>操作类型</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="763" parent="73" name="levelLimit">
+        <comment>权限设置</comment>
+        <data-type>varchar(10)|0</data-type>
+        <default-expression>&apos;NO&apos;</default-expression>
+      </column>
+      <column id="764" parent="73" name="isNeedComments">
+        <comment>是否需要添加额外内容</comment>
+        <data-type>varchar(10)|0</data-type>
+        <default-expression>&apos;FALSE&apos;</default-expression>
+      </column>
+      <column id="765" parent="73" name="logLevel">
+        <comment>日志级别（默认：DB数据库，LOG日志文件）</comment>
+        <data-type>varchar(10)|0</data-type>
+        <default-expression>&apos;DB&apos;</default-expression>
+      </column>
+      <key id="766" parent="73" name="PRIMARY">
+        <columns>opKey</columns>
+        <primary>1</primary>
+      </key>
+      <column id="767" parent="74" name="orderKey">
+        <comment>主键</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11) unsigned|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="768" parent="74" name="EventType">
+        <comment>market_buy</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="769" parent="74" name="SuiteKey">
+        <comment>用户购买套件的SuiteKey</comment>
+        <data-type>varchar(128)|0</data-type>
+      </column>
+      <column id="770" parent="74" name="buyCorpId">
+        <comment>购买公司</comment>
+        <data-type>varchar(128)|0</data-type>
+      </column>
+      <column id="771" parent="74" name="goodsCode">
+        <comment>产品商品码</comment>
+        <data-type>varchar(128)|0</data-type>
+      </column>
+      <column id="772" parent="74" name="itemCode">
+        <comment>购买的商品规格码</comment>
+        <data-type>varchar(128)|0</data-type>
+      </column>
+      <column id="773" parent="74" name="itemName">
+        <comment>购买的商品规格名称</comment>
+        <data-type>varchar(128)|0</data-type>
+      </column>
+      <column id="774" parent="74" name="maxOfPeople">
+        <comment>购买的商品规格能服务的最多企业人数</comment>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="775" parent="74" name="minOfPeople">
+        <comment>购买的商品规格能服务的最少企业人数</comment>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="776" parent="74" name="orderId">
+        <comment>订单id</comment>
+        <data-type>bigint(20)|0</data-type>
+      </column>
+      <column id="777" parent="74" name="paidtime">
+        <comment>下单时间</comment>
+        <data-type>bigint(20)|0</data-type>
+      </column>
+      <column id="778" parent="74" name="paidtimeYMD">
+        <comment>下单时间(YYYY-MM-DD HH:mm:ss)</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="779" parent="74" name="serviceStopTime">
+        <comment>该订单的服务到期时间</comment>
+        <data-type>bigint(20)|0</data-type>
+      </column>
+      <column id="780" parent="74" name="serviceStopTimeYMD">
+        <comment>该订单的服务到期时间(YYYY-MM-DD HH:mm:ss)</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="781" parent="74" name="payFee">
+        <comment>订单支付费用,以分为单位</comment>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="782" parent="74" name="orderCreateSource">
+        <comment>订单创建来源，如果来自钉钉分销系统，则值为“DRP”</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="783" parent="74" name="nominalPayFee">
+        <comment>钉钉分销系统提单价，以分为单位</comment>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="784" parent="74" name="discountFee">
+        <comment>折扣减免费用</comment>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="785" parent="74" name="discount">
+        <comment>订单折扣</comment>
+        <data-type>decimal(16,2)|0</data-type>
+      </column>
+      <key id="786" parent="74" name="PRIMARY">
+        <columns>orderKey</columns>
+        <primary>1</primary>
+      </key>
+      <column id="787" parent="75" name="extensionKey">
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="788" parent="75" name="corpId">
+        <comment>公司ID</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(64)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="789" parent="75" name="corpName">
+        <comment>公司名称</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="790" parent="75" name="goodsCode">
+        <comment>套餐编码</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="791" parent="75" name="chargeDDId">
+        <comment>支付人钉钉ID</comment>
+        <data-type>varchar(128)|0</data-type>
+      </column>
+      <column id="792" parent="75" name="chargeName">
+        <comment>支付人名称</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="793" parent="75" name="chargeTime">
+        <comment>支付时间</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(64)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="794" parent="75" name="pathWay">
+        <comment>途径(正式购买或者试用：FREE BUY)</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;FREE&apos;</default-expression>
+      </column>
+      <column id="795" parent="75" name="expirationTime">
+        <comment>到期时间</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(64)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <index id="796" parent="75" name="corp_goodsUn">
+        <columns>corpId
+goodsCode</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="797" parent="75" name="PRIMARY">
+        <columns>extensionKey</columns>
+        <primary>1</primary>
+      </key>
+      <key id="798" parent="75" name="corp_goodsUn">
+        <columns>corpId
+goodsCode</columns>
+        <underlying-index>corp_goodsUn</underlying-index>
+      </key>
+      <column id="799" parent="76" name="orderKey">
+        <comment>主键</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(64) unsigned|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="800" parent="76" name="orderNo">
+        <comment>订单号</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="801" parent="76" name="tradeNo">
+        <comment>支付宝交易号</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="802" parent="76" name="subjectName">
+        <comment>订单名称</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="803" parent="76" name="body">
+        <comment>商品描述</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="804" parent="76" name="corpId">
+        <comment>公司ID</comment>
+        <data-type>varchar(128)|0</data-type>
+      </column>
+      <column id="805" parent="76" name="corpName">
+        <comment>公司名称</comment>
+        <data-type>varchar(128)|0</data-type>
+      </column>
+      <column id="806" parent="76" name="createDDId">
+        <comment>创建人钉钉ID</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="807" parent="76" name="payPerson">
+        <comment>充值人</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="808" parent="76" name="orderType">
+        <comment>订单类型（0:购买，1:续费，2:升级）</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="809" parent="76" name="orderTime">
+        <comment>下单时间</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="810" parent="76" name="payTime">
+        <comment>充值时间</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="811" parent="76" name="orderCloseTime">
+        <comment>订单关闭时间</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="812" parent="76" name="validTime">
+        <comment>帐套到期时间</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="813" parent="76" name="payAmount">
+        <comment>充值数量</comment>
+        <data-type>decimal(16,2)|0</data-type>
+      </column>
+      <column id="814" parent="76" name="packageKey">
+        <comment>套餐主键</comment>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="815" parent="76" name="payMonth">
+        <comment>充值月数</comment>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="816" parent="76" name="tradeStatus">
+        <comment>订单状态信息</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="817" parent="76" name="isInvoice">
+        <comment>是否开具发票</comment>
+        <data-type>varchar(11)|0</data-type>
+        <default-expression>&apos;NO&apos;</default-expression>
+      </column>
+      <column id="818" parent="76" name="invoiceKey">
+        <comment>发票主键</comment>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <index id="819" parent="76" name="orderNoUn">
+        <columns>orderNo</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="820" parent="76" name="PRIMARY">
+        <columns>orderKey</columns>
+        <primary>1</primary>
+      </key>
+      <key id="821" parent="76" name="orderNoUn">
+        <columns>orderNo</columns>
+        <underlying-index>orderNoUn</underlying-index>
+      </key>
+      <column id="822" parent="77" name="corpId">
+        <comment>公司ID</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(64)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="823" parent="77" name="corpName">
+        <comment>公司名称</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="824" parent="77" name="goodsCode">
+        <comment>套餐编码</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="825" parent="77" name="chargeDDId">
+        <comment>支付人钉钉ID</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="826" parent="77" name="chargeName">
+        <comment>支付人名称</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="827" parent="77" name="chargeTime">
+        <comment>支付时间</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(64)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="828" parent="77" name="pathWay">
+        <comment>途径(正式购买或者试用：FREE BUY)</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;FREE&apos;</default-expression>
+      </column>
+      <column id="829" parent="77" name="expirationTime">
+        <comment>到期时间</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(64)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="830" parent="77" name="corpType">
+        <comment>公司类型（内测，正式，星级）</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;Beta&apos;</default-expression>
+      </column>
+      <key id="831" parent="77" name="PRIMARY">
+        <columns>corpId</columns>
+        <primary>1</primary>
+      </key>
+      <column id="832" parent="78" name="corpId">
+        <comment>主键</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(64)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="833" parent="78" name="itemName">
+        <comment>套餐名称</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="834" parent="78" name="pathWay">
+        <comment>途径(正式购买或者试用：FREE BUY)</comment>
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;FREE&apos;</default-expression>
+      </column>
+      <column id="835" parent="78" name="expirationTime">
+        <comment>到期时间</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="836" parent="78" name="updateTime">
+        <comment>信息更新时间</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="837" parent="78" name="goodsCode">
+        <data-type>varchar(128)|0</data-type>
+      </column>
+      <key id="838" parent="78" name="PRIMARY">
+        <columns>corpId</columns>
+        <primary>1</primary>
+      </key>
+      <column id="839" parent="79" name="goodsCode">
+        <comment>购买的商品码</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)|0</data-type>
+      </column>
+      <column id="840" parent="79" name="itemName">
+        <comment>购买的商品规格名称</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="841" parent="79" name="itemCode">
+        <comment>购买的商品规格码</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="842" parent="79" name="sobCount">
+        <comment>账套数量</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+        <default-expression>&apos;3&apos;</default-expression>
+      </column>
+      <column id="843" parent="79" name="extensionNum">
+        <comment>扩展包数量</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="844" parent="79" name="effectiveMonth">
+        <comment>购买有效时长</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="845" parent="79" name="payFee">
+        <comment>价格</comment>
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,2)|0</data-type>
+      </column>
+      <column id="846" parent="79" name="canActivate">
+        <comment>可激活</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="847" parent="79" name="isExtension">
+        <comment>是否为扩展包</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="848" parent="79" name="isTrial">
+        <comment>是否开启试用</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="849" parent="79" name="isAutoTrial">
+        <comment>是否自动开启试用</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="850" parent="79" name="content">
+        <comment>内容</comment>
+        <data-type>varchar(256)|0</data-type>
+      </column>
+      <column id="851" parent="79" name="mark">
+        <comment>返回前端标识</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <key id="852" parent="79" name="PRIMARY">
+        <columns>goodsCode</columns>
+        <primary>1</primary>
+      </key>
+      <column id="853" parent="80" name="reportkey">
+        <mandatory>1</mandatory>
+        <data-type>int(64) unsigned|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="854" parent="80" name="sobid">
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)|0</data-type>
+      </column>
+      <column id="855" parent="80" name="reportname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="856" parent="80" name="linename">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="857" parent="80" name="lineindex">
+        <mandatory>1</mandatory>
+        <data-type>int(11) unsigned|0</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="858" parent="80" name="acid">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)|0</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="859" parent="80" name="linecalc">
+        <mandatory>1</mandatory>
+        <data-type>varchar(16)|0</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <key id="860" parent="80" name="PRIMARY">
+        <columns>reportkey</columns>
+        <primary>1</primary>
+      </key>
+      <column id="861" parent="81" name="sobid">
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)|0</data-type>
+      </column>
+      <column id="862" parent="81" name="sobname">
+        <comment>帐套名称</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(64)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="863" parent="81" name="companyname">
+        <comment>帐套公司</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="864" parent="81" name="vcname">
+        <comment>凭证字</comment>
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;记&apos;</default-expression>
+      </column>
+      <column id="865" parent="81" name="createtime">
+        <comment>创建时间</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="866" parent="81" name="model">
+        <comment>帐套模版</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="867" parent="81" name="isActivate">
+        <comment>是否激活</comment>
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;FALSE&apos;</default-expression>
+      </column>
+      <column id="868" parent="81" name="activateTime">
+        <comment>激活时间</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="869" parent="81" name="deletetime">
+        <comment>删除时间（用于标记帐套是否删除，存在，即帐套已被假删）</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="870" parent="81" name="firstyear">
+        <comment>起始年</comment>
+        <data-type>varchar(16)|0</data-type>
+      </column>
+      <column id="871" parent="81" name="firstmonth">
+        <comment>起始月</comment>
+        <data-type>varchar(16)|0</data-type>
+      </column>
+      <column id="872" parent="81" name="corpId">
+        <data-type>varchar(128)|0</data-type>
+      </column>
+      <column id="873" parent="81" name="createUserUUID">
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="874" parent="81" name="createDDUserId">
+        <data-type>varchar(128)|0</data-type>
+      </column>
+      <column id="875" parent="81" name="createName">
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <index id="876" parent="81" name="idx_corpid">
+        <columns>corpId</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="877" parent="81" name="PRIMARY">
+        <columns>sobid</columns>
+        <primary>1</primary>
+      </key>
+      <column id="878" parent="82" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="879" parent="82" name="assCategory">
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="880" parent="82" name="sobId">
+        <data-type>varchar(256)|0</data-type>
+      </column>
+      <key id="881" parent="82" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="882" parent="83" name="key">
+        <mandatory>1</mandatory>
+        <data-type>int(11) unsigned|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="883" parent="83" name="sobID">
+        <comment>帐套的sobid</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="884" parent="83" name="backUpSobID">
+        <comment>备份帐套的sobid</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="885" parent="83" name="type">
+        <comment>备份的类型（0:自动；1：手动）</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(1)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="886" parent="83" name="beginTime">
+        <comment>备份开始时间</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="887" parent="83" name="endTime">
+        <comment>备份结束时间</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <index id="888" parent="83" name="unq_bkID">
+        <columns>sobID
+backUpSobID</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="889" parent="83" name="PRIMARY">
+        <columns>key</columns>
+        <primary>1</primary>
+      </key>
+      <key id="890" parent="83" name="unq_bkID">
+        <columns>sobID
+backUpSobID</columns>
+        <underlying-index>unq_bkID</underlying-index>
+      </key>
+      <column id="891" parent="84" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11) unsigned|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="892" parent="84" name="sobid">
+        <data-type>varchar(128)|0</data-type>
+      </column>
+      <column id="893" parent="84" name="label">
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <key id="894" parent="84" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="895" parent="85" name="userid">
+        <comment>userid</comment>
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="896" parent="85" name="password">
+        <comment>用户密码</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(64)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="897" parent="85" name="username">
+        <comment>用户姓名</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(64)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="898" parent="85" name="defaultsobid">
+        <comment>用户帐套uuid</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="899" parent="85" name="corpId">
+        <comment>公司id</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="900" parent="85" name="corpName">
+        <comment>公司名称</comment>
+        <data-type>varchar(128)|0</data-type>
+      </column>
+      <column id="901" parent="85" name="dduserid">
+        <comment>钉钉id</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="902" parent="85" name="useruuid">
+        <comment>用户uuid</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="903" parent="85" name="createtime">
+        <comment>用户创建时间</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="904" parent="85" name="isAdmin">
+        <comment>是否为管理员</comment>
+        <data-type>varchar(16)|0</data-type>
+        <default-expression>&apos;FALSE&apos;</default-expression>
+      </column>
+      <column id="905" parent="85" name="isBoss">
+        <comment>是否为老板</comment>
+        <data-type>varchar(16)|0</data-type>
+        <default-expression>&apos;FALSE&apos;</default-expression>
+      </column>
+      <index id="906" parent="85" name="idx_corpid">
+        <columns>corpId</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="907" parent="85" name="user_uuid_index">
+        <columns>useruuid</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="908" parent="85" name="PRIMARY">
+        <columns>corpId
+dduserid</columns>
+        <primary>1</primary>
+      </key>
+      <column id="909" parent="86" name="key">
+        <mandatory>1</mandatory>
+        <data-type>int(11) unsigned|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="910" parent="86" name="time">
+        <comment>用户行为开始时间</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="911" parent="86" name="userAction">
+        <comment>用户的行为动作</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(64)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="912" parent="86" name="commonts">
+        <data-type>varchar(128)|0</data-type>
+      </column>
+      <column id="913" parent="86" name="useruuid">
+        <comment>用户标示</comment>
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <column id="914" parent="86" name="sobid">
+        <comment>帐套标示</comment>
+        <data-type>varchar(50)|0</data-type>
+      </column>
+      <column id="915" parent="86" name="corpId">
+        <comment>公司标示</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <index id="916" parent="86" name="idx_action">
+        <columns>time
+useruuid
+corpId
+sobid</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="917" parent="86" name="PRIMARY">
+        <columns>key</columns>
+        <primary>1</primary>
+      </key>
+      <column id="918" parent="87" name="userid">
+        <mandatory>1</mandatory>
+        <data-type>varchar(64)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="919" parent="87" name="sobid">
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="920" parent="87" name="level">
+        <comment>用户在该帐套下的权限（0：任意操作，1:，2:只可查看）</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(4)|0</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="921" parent="87" name="useruuid">
+        <data-type>varchar(32)|0</data-type>
+      </column>
+      <index id="922" parent="87" name="us_uuid_index">
+        <columns>useruuid</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="923" parent="87" name="PRIMARY">
+        <columns>userid
+sobid</columns>
+        <primary>1</primary>
+      </key>
+      <column id="924" parent="88" name="traceKey">
+        <mandatory>1</mandatory>
+        <data-type>int(11) unsigned|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="925" parent="88" name="useruuid">
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="926" parent="88" name="isTrace">
+        <data-type>varchar(10)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="927" parent="88" name="column1">
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="928" parent="88" name="column2">
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="929" parent="88" name="column3">
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="930" parent="88" name="column4">
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="931" parent="88" name="column5">
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="932" parent="88" name="column6">
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="933" parent="88" name="column7">
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="934" parent="88" name="column8">
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="935" parent="88" name="column9">
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <column id="936" parent="88" name="column10">
+        <data-type>varchar(64)|0</data-type>
+      </column>
+      <key id="937" parent="88" name="PRIMARY">
+        <columns>traceKey</columns>
+        <primary>1</primary>
+      </key>
+      <column id="938" parent="89" name="vckey">
+        <comment>凭证key</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(64) unsigned|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="939" parent="89" name="sobid">
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="940" parent="89" name="year">
+        <comment>凭证创建年份</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="941" parent="89" name="month">
+        <comment>凭证创建月份</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="942" parent="89" name="vcindex">
+        <comment>当前年月下的第几号凭证</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="943" parent="89" name="vcdate">
+        <comment>凭证发生日期</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="944" parent="89" name="exchange">
+        <comment>汇率</comment>
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,8)|0</data-type>
+        <default-expression>&apos;1.00000000&apos;</default-expression>
+      </column>
+      <column id="945" parent="89" name="createdtime">
+        <comment>凭证创建日期</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="946" parent="89" name="modifiedtime">
+        <comment>凭证更新时间</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="947" parent="89" name="createdby">
+        <comment>凭证创建人</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="948" parent="89" name="closedby">
+        <comment>结账人</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="949" parent="89" name="reviewedby">
+        <comment>审核人名字</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="950" parent="89" name="currency">
+        <comment>货币类型</comment>
+        <data-type>varchar(16)|0</data-type>
+        <default-expression>&apos;RMB&apos;</default-expression>
+      </column>
+      <column id="951" parent="89" name="enclosurecount">
+        <comment>附件数量</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <index id="952" parent="89" name="time">
+        <columns>createdtime</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="953" parent="89" name="VcIndexUN">
+        <columns>sobid
+year
+month
+vcindex</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="954" parent="89" name="PRIMARY">
+        <columns>vckey</columns>
+        <primary>1</primary>
+      </key>
+      <key id="955" parent="89" name="VcIndexUN">
+        <columns>sobid
+year
+month
+vcindex</columns>
+        <underlying-index>VcIndexUN</underlying-index>
+      </key>
+      <column id="956" parent="90" name="vckey">
+        <comment>凭证key</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(64) unsigned|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="957" parent="90" name="sobid">
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)|0</data-type>
+      </column>
+      <column id="958" parent="90" name="year">
+        <comment>凭证创建年份</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="959" parent="90" name="month">
+        <comment>凭证创建月份</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="960" parent="90" name="vcindex">
+        <comment>当前年月下的第几号凭证</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="961" parent="90" name="vcdate">
+        <comment>凭证发生日期</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="962" parent="90" name="exchange">
+        <comment>汇率</comment>
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,8)|0</data-type>
+        <default-expression>&apos;1.00000000&apos;</default-expression>
+      </column>
+      <column id="963" parent="90" name="createdtime">
+        <comment>凭证创建日期</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="964" parent="90" name="modifiedtime">
+        <comment>凭证更新时间</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="965" parent="90" name="createdby">
+        <comment>凭证创建人</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="966" parent="90" name="closedby">
+        <comment>结账人</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="967" parent="90" name="reviewedby">
+        <comment>审核人名字</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="968" parent="90" name="currency">
+        <comment>货币类型</comment>
+        <data-type>varchar(16)|0</data-type>
+        <default-expression>&apos;RMB&apos;</default-expression>
+      </column>
+      <column id="969" parent="90" name="enclosurecount">
+        <comment>附件数量</comment>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <index id="970" parent="90" name="time">
+        <columns>createdtime</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="971" parent="90" name="VcIndexUN">
+        <columns>sobid
+year
+month
+vcindex</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="972" parent="90" name="PRIMARY">
+        <columns>vckey</columns>
+        <primary>1</primary>
+      </key>
+      <key id="973" parent="90" name="VcIndexUN">
+        <columns>sobid
+year
+month
+vcindex</columns>
+        <underlying-index>VcIndexUN</underlying-index>
+      </key>
+      <column id="974" parent="91" name="vckey">
+        <comment>凭证key</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(64) unsigned|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="975" parent="91" name="sobid">
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)|0</data-type>
+      </column>
+      <column id="976" parent="91" name="year">
+        <comment>凭证创建年份</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="977" parent="91" name="month">
+        <comment>凭证创建月份</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="978" parent="91" name="vcindex">
+        <comment>当前年月下的第几号凭证</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="979" parent="91" name="vcdate">
+        <comment>凭证发生日期</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="980" parent="91" name="exchange">
+        <comment>汇率</comment>
+        <mandatory>1</mandatory>
+        <data-type>decimal(16,8)|0</data-type>
+        <default-expression>&apos;1.00000000&apos;</default-expression>
+      </column>
+      <column id="981" parent="91" name="createdtime">
+        <comment>凭证创建日期</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="982" parent="91" name="modifiedtime">
+        <comment>凭证更新时间</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="983" parent="91" name="createdby">
+        <comment>凭证创建人</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="984" parent="91" name="closedby">
+        <comment>结账人</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="985" parent="91" name="reviewedby">
+        <comment>审核人名字</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(32)|0</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="986" parent="91" name="currency">
+        <comment>货币类型</comment>
+        <data-type>varchar(16)|0</data-type>
+        <default-expression>&apos;RMB&apos;</default-expression>
+      </column>
+      <column id="987" parent="91" name="enclosurecount">
+        <comment>附件数量</comment>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="988" parent="91" name="locked">
+        <comment>是否加锁(1、已加锁，0、未加锁)</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(1)|0</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <index id="989" parent="91" name="idx_sobid">
+        <columns>sobid</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="990" parent="91" name="PRIMARY">
+        <columns>vckey</columns>
+        <primary>1</primary>
+      </key>
+    </database-model>
+  </data-source>
+</component>

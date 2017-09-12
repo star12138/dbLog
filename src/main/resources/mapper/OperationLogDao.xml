@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xfn.dbLog.dao.OperationLogDao">
+
+    <sql id="insert_Colomn">
+        startTime, durationTime, userName, userID, sobName, sobID, corpName, corpID, bussinessType,
+        operationtype, returncode, comments, source, serviceIP, servicePort, appId
+    </sql>
+
+    <sql id="All_Colomn">
+        logKey, startTime, durationTime, userName, userID, sobName, sobID, corpName, corpID, bussinessType,
+        operationtype, returncode, comments, source, serviceIP, servicePort, appId
+    </sql>
+
+    <insert id="insertOperationLog">
+        INSERT INTO
+        log
+        (<include refid="insert_Colomn"/>)
+        VALUES
+        (#{startTime,jdbcType=VARCHAR},
+        #{durationTime,jdbcType=DOUBLE},
+        #{userName,jdbcType=VARCHAR},
+        #{userID,jdbcType=VARCHAR},
+        #{sobName,jdbcType=VARCHAR},
+        #{sobID,jdbcType=VARCHAR},
+        #{corpName,jdbcType=VARCHAR},
+        #{corpID,jdbcType=VARCHAR},
+        #{bussinessType,jdbcType=VARCHAR},
+        #{operationtype,jdbcType=VARCHAR},
+        #{returncode,jdbcType=VARCHAR},
+        #{comments,jdbcType=VARCHAR},
+        #{source,jdbcType=VARCHAR},
+        #{serviceIP,jdbcType=VARCHAR},
+        #{servicePort,jdbcType=VARCHAR},
+        #{appId,jdbcType=VARCHAR}
+        )
+    </insert>
+
+    <insert id="insert">
+        INSERT INTO
+            log
+            (serviceIP, servicePort)
+        VALUES
+            (
+                #{operationLog.serviceIP,jdbcType=VARCHAR},
+                #{operationLog.servicePort,jdbcType=VARCHAR}
+            )
+    </insert>
+
+</mapper>
